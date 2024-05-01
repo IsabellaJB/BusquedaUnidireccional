@@ -22,11 +22,10 @@ def busqueda_unidireccional(punto_inicial, direccion_busqueda, funcion_objetivo,
         alpha += paso_alpha
     return punto_minimo, valor_minimo
 
-# Definimos un punto inicial y una dirección de búsqueda
+
 punto_inicial = np.array([0, 0])
 direccion_busqueda = np.array([1, 1])
 
-# Aplicamos la búsqueda unidireccional
 punto_minimo, valor_minimo = busqueda_unidireccional(punto_inicial, direccion_busqueda, funcion_objetivo)
 
 print("Punto mínimo:", punto_minimo)
