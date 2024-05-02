@@ -19,7 +19,6 @@ def busqueda_unidireccional(punto_inicial, direccion_busqueda, funcion_objetivo,
     def evaluar_objetivo_en_alpha(alpha):
         x_alpha = punto_inicial + alpha * direccion_busqueda
         return funcion_objetivo(x_alpha)
-    
     valor_minimo = float('inf')
     punto_minimo = None
     alpha = 0.0
