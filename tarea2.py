@@ -48,8 +48,8 @@ def optimizador_unidireccional(x_t, s_t, funcion, e):
 
 
 
-x_t = np.array([2, 1], dtype=np.float64)
-s_t = np.array([2, 5], dtype=np.float64)
+x_t = np.array([2, 1])
+s_t = np.array([2, 5])
 
 
 
